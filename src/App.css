@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'ComicNeue';
+  src: url('./fonts/ComicNeue-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('./fonts/Jost-VariableFont.ttf');
+}
+
+@font-face {
+  font-family: 'AnekTamil';
+  src: url('./fonts/AnekTamil-Regular.ttf')
+}
+
+
+.bg-custom {
+  background-color: #444444;
+}
+
+
+[data-bs-theme="dark"] {
+  background-color: #212529;
+  color: #ffffff;
+}
+
+[data-bs-theme="dark"] .box {
+  background-color: #272c31;
+}
+
+[data-bs-theme="dark"] .box h2,
+[data-bs-theme="dark"] .box p {
+  color: #ffffff;
+}
+
+.navbar-brand {
+  margin-left: 10%;
+}
+
+.header-font {
+  color: #2391ff;
+  font-size: 65px;
+  font-family: 'Jost';
+  margin-right: 25%;
+}
+
+.custom-quote {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  font-family: 'AnekTamil';
+}
+
+.author-quote {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  font-family: 'AnekTamil';
+}
+
+.image-header {
+ z-index: -1;
+}
+
+.box {
+  width: 75%;
+  min-height: 300px;
+  padding-bottom: 30px;
+  z-index: 1;
+}
+
+.chibi-image {
+  position: relative;
+  top: 110px;
+  left: 330px;
+  z-index: 0;
+  width: 12%;
+  height: 15%;
+}
+
+.loading-bar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #0066ff;
+}
+
+.loading-bar {
+  height: 100%;
+  width: 0;
+  background-color: #3191ff;
+  transition: width 0.2s ease-in-out;
+}
+
