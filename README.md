@@ -1,11 +1,7 @@
-# Animus Randomizer
+# Anime Randomize Quotes
 [Completed] Front-end Interface Preview
 
-![image](https://github.com/kaizenics/anime-randomizer/assets/94561281/dd647354-d722-4778-9ae5-43b36befdbd1)
-
-[Current Issues]
-- Vite Deployment bug / Not recognized in Vercel
-- Currently not supported in Mobile and Tablet devices
+![image](https://github.com/kaizenics/anime-quotes/assets/94561281/2c793e5f-8e12-4b99-a0b9-f1020777bb30)
 
 ## Tech Stack
 * ReactJS
